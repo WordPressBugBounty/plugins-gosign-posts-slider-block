@@ -1,0 +1,21 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */ 
+
+.grid-sizer,
+.grid-item {
+	line-height: 0;
+}
+
+// slider css 
+.grid-post-parent-gosign {
+	width: 95%;
+    margin: 0 auto;
+}
+
+.slick-arrow.slick-prev, .slick-arrow.slick-next{
+	background: red;
+}

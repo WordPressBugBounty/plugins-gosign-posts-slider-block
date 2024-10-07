@@ -1,0 +1,90 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+ //slider library css
+ @import "../src/block/slick/slick.css";
+ @import "../src/block/slick/slick-theme.css";
+
+.gallery-frontend {
+  .grid-item {
+    opacity: 1;
+  }
+}
+
+.detail_layout.grid-parent-gosign,
+.detail_layout_grid.grid-parent-gosign,
+.detail_layout_masonry.grid-parent-gosign {
+  //test changings end
+  .grid-item {
+    line-height: 1.8;
+    .gallery-image {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      overflow: initial;
+      min-height: auto;
+      width: 100%;
+      padding-bottom: 2em;
+      .slider-image-container {
+        height: 250px;
+        margin-bottom: 1.2em;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: 50%;
+        }
+      }
+      &:before {
+        display: none;
+      }
+      .box-content {
+        position: initial;
+        h3.title {
+          text-align: left;
+          padding: 0;
+          color: #000;
+          padding-bottom: 15px;
+        }
+        a {
+          text-align: left;
+        }
+        .readmore {
+          float: left;
+        }
+        .author-and-date {
+          padding-bottom: 15px;
+          text-align: left;
+          width: 100%;
+          span {
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+          }
+          time {
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+          }
+        }
+        p {
+          text-align: left;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+.gallery-frontend {
+  .slick-slide {
+    margin: 0 27px;
+  }
+  /* the parent */
+  .slick-list {
+    margin: 0 -27px;
+  }
+}
