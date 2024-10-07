@@ -1,0 +1,1 @@
+# plugins-gosign-posts-slider-block
